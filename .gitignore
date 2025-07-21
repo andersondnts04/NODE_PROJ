@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Ambiente
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Banco SQLite (caso use)
+*.sqlite
+*.sqlite3
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build e cache
+dist/
+build/
+.cache/
+tmp/
+
+# Sequelize
+config/config.json
+
+# Optional: se usar o coverage de testes
+coverage/
