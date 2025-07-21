@@ -49,10 +49,6 @@ app.put('/usuario/:id', async (req, res) => {
   try {
     const id = parseInt(req.params.id);
 
-    if (isNaN(id)) {
-      return res.status(400).json({ error: "ID inválido" });
-    }
-
     const { firstName, Username, email, password } = req.body;
 
     const [updated] = await User.update(
